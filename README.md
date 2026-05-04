@@ -17,6 +17,6 @@ Here's a visualization of a sample TTDB perceptual transition (e.g., from metfor
 
 ```mermaid
 graph TD
-    A[@PERCEPT:before: nausea, fatigue, brain-fog] -->|metformin intervention| B[@PERCEPT:after: reduced-nausea, energy-restored, mental-clarity]
-    B --> C[outcome: glucose-controlled]
+    A["@PERCEPT:before: nausea, fatigue, brain-fog"] -->|metformin intervention| B["@PERCEPT:after: reduced-nausea, energy-restored, mental-clarity"]
+    B --> C["outcome: glucose-controlled"]
 ```
