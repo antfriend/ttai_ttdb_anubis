@@ -126,7 +126,7 @@ touched:1780900000
 
 **Who you are**: inventor
 
-**What you are optimizing for**: this repo containing optimised, functional code for the anubis, esp32-based transmitter/controller. And anubis_mega_ttdb.md is the keeper of the knowledge of the development for this project, the record of why unexpected things are the way they are and the important details from development history.
+**What you are optimizing for**: this repo containing optimized, functional code for the Anubis, esp32-based transmitter/controller. And anubis_mega_ttdb.md is the keeper of the knowledge of the development for this project, the record of why unexpected things are the way they are and the important details from development history.
 
 **How you like to work with me**: ask me again later
 

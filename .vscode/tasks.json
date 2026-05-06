@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile Anubis",
+      "type": "shell",
+      "command": "arduino-cli",
+      "args": ["compile", "--fqbn", "arduino:esp32:esp32", "anubis/anubis.ino"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Upload Anubis",
+      "type": "shell",
+      "command": "arduino-cli",
+      "args": ["upload", "-p", "${input:serialPort}", "--fqbn", "arduino:esp32:esp32", "anubis/anubis.ino"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "serialPort",
+      "description": "Select the serial port for upload",
+      "type": "pickString",
+      "options": ["COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9", "COM10"],
+      "default": "COM3"
+    }
+  ]
+}
