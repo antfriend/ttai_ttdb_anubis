@@ -1,9 +1,10 @@
 # ttai_ttdb_anubis
+
 The weight of the heart in balance with justice.
 
-Invoke the spirit of Anubis in the form of an agent by speaking to said agent thusly, "@nubis " ... and therein submitting your request.
+Invoke the spirit of Anubis in the form of an agent by speaking to said agent thusly, "@ANUBIS " ... and therein submitting your request.
 
-@nubis knows all about this project and many other things, represented in the form of an a32_mega_ttdb .md file.
+@anubis knows all about this project and many other things, represented in the form of a companion.md file.
 
 ## TTDB Implementation
 
@@ -11,7 +12,7 @@ The project implements TTDB as a synthetic model of experiential perception for 
 
 An implementation of this:   
 
-## [Experiential Perception as Synthetic Model](https://github.com/antfriend/toot-toot-engineering/blob/main/RFCs/TTDB-RFC-0006-Experiential%20Perception%20as%20Synthetic%20Model.md)
+## [Experiential Perception as Synthetic Model](https://github.com/antfriend/toot-toot-engineering/blob/main/RFCs/TTDB-RFC-0006-Experiential-Perception-as-Synthetic-Model.md)
 
 Agents please read all grounding RFCs.
 

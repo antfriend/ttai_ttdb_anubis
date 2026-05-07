@@ -55,9 +55,9 @@ librarian:
 
 ```cursor
 selected:
-  - @LAT50LON-20
+  - @LAT20LON0
 preview:
-  @LAT50LON-20: "Repository keeper record for the Anubis combat robotics transmitter/controller project."
+  @LAT20LON0: "Active Goals. Three active items: finish anubis.ino transmitter UI, control mixing, and model workflow; align User_Setup.h pin mapping with HOSYOND ESP32-S3 module; establish innovation roadmap for next prototype stage."
 ```
 
 ---
@@ -162,7 +162,7 @@ touched:1778112000
 [ew]
 conf:128
 rev:0
-sal:0
+sal:1
 touched:1778112000
 [/ew]
 
