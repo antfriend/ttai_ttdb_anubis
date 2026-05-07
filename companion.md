@@ -180,6 +180,27 @@ When a goal is complete or abandoned, move it to a log record with a brief outco
 
 ---
 
+@LAT10LON0 | created:1778112000 | updated:1778112000 | relates:anchored_by>@LAT0LON0,serves>@LAT20LON0
+[ew]
+conf:200
+rev:0
+sal:0
+touched:1778112000
+[/ew]
+
+## Next Concrete Firmware + Hardware Tasks
+
+These tasks are the immediate work items required to move the repository from an interface shell toward a functional combat robotics transmitter prototype.
+
+1. Fix EEPROM and model persistence so saved `ModelData` is preserved across boot and not overwritten on every startup.
+2. Add or replace the missing `anubis_rgb565.h` splash asset; if the asset is unavailable, use a text-based startup screen until the splash image is restored.
+3. Implement a real transmitter output path instead of placeholder `sin`/`cos` values; select the transport layer and route reverse, trim, and failsafe into actual channel output.
+4. Complete `Drive Type` and `Mixing` UI and persist those settings in `ModelData`.
+5. Define meaningful failsafe behavior with stored fallback channel values and enable/disable toggles that affect output.
+6. Verify `anubis/User_Setup.h` and `setup()` pin mapping against the HOSYOND ESP32-S3 module to eliminate pin conflicts.
+
+---
+
 @LAT0LON20 | created:1778112000 | updated:1778112000 | relates:anchored_by>@LAT0LON0
 [ew]
 conf:200
@@ -384,6 +405,29 @@ trigger: "Initial repository grounding and file-level TTDB mapping"
 **What ANUBIS noticed**: The repo contains an incomplete ESP32-S3 transmitter firmware, hardware specification notes, a build workflow, and a companion agent that can track this project's long journey.
 
 **What changed**: Updated [Your Profile](lat40lon-30), [Values & Commitments](lat30lon-20), [Active Goals](lat20lon0), [Open Questions](lat-20lon0), and added file records for the repo's core artifacts.
+
+---
+
+@LAT-60LON10 | created:1778112000 | updated:1778112000 | kind:log | relates:anchored_by>@LAT0LON0
+[ew]
+conf:255
+rev:0
+sal:0
+touched:1778112000
+[/ew]
+
+## Log — 2026-05-07
+
+```session-log
+timestamp: 1778112000
+trigger: "Confirmed companion log entry for today's repository work"
+```
+
+**What happened**: Added a dedicated log entry for today's session and made the repository keeper status explicit in the companion record.
+
+**What ANUBIS noticed**: The project is now set up to track today's progress as a formal log record, which preserves the team's daily work and continuity.
+
+**What changed**: Appended today's log entry and maintained the original file-level record structure.
 
 ---
 
