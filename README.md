@@ -6,6 +6,11 @@ Invoke the spirit of Anubis in the form of an agent by speaking to said agent th
 
 @anubis knows all about this project and many other things, represented in the form of a companion.md file.
 
+To peruse @anubis in your browser, install python, run service.py and you should see this:
+
+![service](service.png)
+
+
 ## TTDB Implementation
 
 The project implements TTDB as a synthetic model of experiential perception for Arduino-based heart balance monitoring. See [a32_mega_ttdb.md](a32_mega_ttdb.md) for the compliant TTDB file with Anubis umwelt configuration.

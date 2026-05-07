@@ -1,0 +1,9 @@
+:root {
+  color-scheme: light;
+  --eyeball-red: #ff0000;
+}
+
+.eyeball {
+  width: 100px;
+  height: 100px;
+}
